@@ -1,0 +1,19 @@
+{
+  "name": "@dne/eslint-config",
+  "version": "0.0.2",
+  "description": "General DNE eslint confic",
+  "main": "index.js",
+  "author": "Daniel Pangerl @die-neue-entwicklung",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-import-resolver-webpack": "^0.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
+}
